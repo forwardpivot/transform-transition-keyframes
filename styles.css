@@ -1,0 +1,55 @@
+.rotate {
+    /*It rotates the element. Using a negative value rotates it counter clockwise.
+    *Can also use rad, and turn.
+    */
+    transform: rotate(70deg);
+}
+
+.scale {
+    /*The first value is the X axis(horizontally), and the second value is Y axis(verically)
+    *A number below 1 makes the element smaller
+    */
+    transform: scale(1.5, .45);
+}
+
+.skew {
+    transform: skew(10deg, 15rad);
+}
+
+.translate {
+    /*This moves the element along the x, and y axis
+    *Using negative values on the X axis move the element to the left
+    *Using negative values on the Y moves it up
+    */
+    transform: translate(200px, -100%);
+}
+
+.chained {
+    transform: rotate(25deg) translate(50px, -700px) scale(1.5, 1.5) skewY(50deg);
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    margin: 100px;
+}
+
+.red {
+    background: red;
+}
+
+.green {
+    background: green;
+}
+
+.blue {
+    background: blue;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.pink {
+    background: pink;
+}
